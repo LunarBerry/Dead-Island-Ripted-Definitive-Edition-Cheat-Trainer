@@ -41,8 +41,12 @@ namespace Dead_Island_Riptide_Cheat
         private void DeadIslandRiptideCheatTrainer_Load(object sender, EventArgs e)
         {
             CheckForIllegalCrossThreadCalls = false;
-
-            mMemLib.OpenProcess("DeadIslandRiptideGame");
+            if (mMemLib.OpenProcess("DeadIslandRiptideGame"))
+            {
+                label2.ForeColor = Color.Green;
+                label2.Text = "Spiel gefunden";
+            }
+            
             Thread TH = new Thread(WriteMemory);
             Thread FT = new Thread(WriteMemory2);
             Thread HK = new Thread(WriteMemory3);
@@ -183,7 +187,7 @@ namespace Dead_Island_Riptide_Cheat
             {
                 if (checkBox4.Checked)
                 {
-                    mMemLib.WriteMemory("engine_x64_rwdi.dll+0x00A51F58,280,128,30,20,D94", "int", "1065353216");
+                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x012824D0,8,3B8,C0,60,D5C", "int", "1065353216");
                 }
 
                 Thread.Sleep(1);

@@ -7,6 +7,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationManifest>applik.manifest</ApplicationManifest>
     <ApplicationIcon>myLogo.ico</ApplicationIcon>
+    <Version>1.24</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -16,6 +17,7 @@
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <OutputPath>C:\Users\marce\Desktop\dead island cheat\</OutputPath>
+    <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>

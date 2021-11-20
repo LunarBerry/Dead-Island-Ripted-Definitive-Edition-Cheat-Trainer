@@ -39,6 +39,7 @@ namespace Dead_Island_Riptide_Cheat
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -167,12 +168,23 @@ namespace Dead_Island_Riptide_Cheat
             this.checkBox4.Text = "Unbegrenzte Ausdauer";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.Color.Red;
+            this.label2.Location = new System.Drawing.Point(13, 144);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(99, 15);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Spiel geschlossen";
+            // 
             // DeadIslandRiptideCheatTrainer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(45)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(672, 263);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
             this.Controls.Add(this.label1);
@@ -205,6 +217,7 @@ namespace Dead_Island_Riptide_Cheat
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.Label label2;
     }
 }
 
