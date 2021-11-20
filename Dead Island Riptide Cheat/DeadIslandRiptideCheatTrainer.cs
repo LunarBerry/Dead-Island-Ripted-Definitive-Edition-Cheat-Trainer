@@ -51,11 +51,13 @@ namespace Dead_Island_Riptide_Cheat
             Thread FT = new Thread(WriteMemory2);
             Thread HK = new Thread(WriteMemory3);
             Thread UA = new Thread(WriteMemory4);
+            Thread UF = new Thread(WriteMemory5);
 
             TH.Start();
             FT.Start();
             HK.Start();
             UA.Start();
+            UF.Start();
 
         }
 
@@ -188,6 +190,32 @@ namespace Dead_Island_Riptide_Cheat
                 if (checkBox4.Checked)
                 {
                     mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x012824D0,8,3B8,C0,60,D5C", "int", "1065353216");
+                }
+
+                Thread.Sleep(1);
+            }
+        }
+        private void WriteMemory5()
+        {
+
+            /*
+             * pointer offsets für flashlight
+             * 
+             * value: 1120403456
+             * 
+             * 1. "gamedll_x64_rwdi.dll+0x012822C8,D20,180,48,20,8B8,68"
+             * 2. "gamedll_x64_rwdi.dll+0x013271B0,A50,50,D88,48,20,8B8,68"
+             *    "gamedll_x64_rwdi.dll+0x012822C8,A50,50,AA8,48,20,8B8,68"
+             *    "gamedll_x64_rwdi.dll+0x013271B0,A50,50,8A0,48,20,8B8,68"
+             *    "gamedll_x64_rwdi.dll+0x012822C8,D20,180,48,B8,20,8B8,68"
+             *    "gamedll_x64_rwdi.dll+0x013271B0,A50,50,ED8,8,20,8B8,68"
+             *    "gamedll_x64_rwdi.dll+0x01246118,18,48,20,40,0,880,68"
+             */
+            while (true)
+            {
+                if (checkBox5.Checked)
+                {
+                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x013271B0,A50,50,D88,48,20,8B8,68", "int", "1120403456");
                 }
 
                 Thread.Sleep(1);

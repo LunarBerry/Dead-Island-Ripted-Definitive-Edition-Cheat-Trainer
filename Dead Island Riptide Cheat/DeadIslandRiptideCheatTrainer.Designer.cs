@@ -40,6 +40,7 @@ namespace Dead_Island_Riptide_Cheat
             this.checkBox3 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,7 +82,7 @@ namespace Dead_Island_Riptide_Cheat
             this.checkBox1.FlatAppearance.BorderSize = 0;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(402, 114);
+            this.checkBox1.Location = new System.Drawing.Point(402, 71);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(130, 37);
             this.checkBox1.TabIndex = 4;
@@ -97,9 +98,9 @@ namespace Dead_Island_Riptide_Cheat
             this.checkBox2.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBox2.Location = new System.Drawing.Point(402, 157);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(237, 37);
+            this.checkBox2.Size = new System.Drawing.Size(221, 37);
             this.checkBox2.TabIndex = 5;
-            this.checkBox2.Text = "Unendlich   Munition";
+            this.checkBox2.Text = "Unendlich Munition";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
@@ -149,9 +150,9 @@ namespace Dead_Island_Riptide_Cheat
             this.checkBox3.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBox3.Location = new System.Drawing.Point(402, 200);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(229, 37);
+            this.checkBox3.Size = new System.Drawing.Size(213, 37);
             this.checkBox3.TabIndex = 9;
-            this.checkBox3.Text = "Waffen   Haltbarkeit";
+            this.checkBox3.Text = "Waffen Haltbarkeit";
             this.checkBox3.UseVisualStyleBackColor = true;
             this.checkBox3.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
             // 
@@ -163,9 +164,9 @@ namespace Dead_Island_Riptide_Cheat
             this.checkBox4.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.checkBox4.Location = new System.Drawing.Point(127, 200);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(252, 37);
+            this.checkBox4.Size = new System.Drawing.Size(241, 37);
             this.checkBox4.TabIndex = 10;
-            this.checkBox4.Text = "Unbegrenzte Ausdauer";
+            this.checkBox4.Text = "Unbegrenzte Stamina";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
             // label2
@@ -178,12 +179,26 @@ namespace Dead_Island_Riptide_Cheat
             this.label2.TabIndex = 11;
             this.label2.Text = "Spiel geschlossen";
             // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.FlatAppearance.BorderSize = 0;
+            this.checkBox5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox5.Font = new System.Drawing.Font("Segoe Print", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.checkBox5.Location = new System.Drawing.Point(402, 114);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(224, 37);
+            this.checkBox5.TabIndex = 12;
+            this.checkBox5.Text = "Unendlich Flashlight";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
             // DeadIslandRiptideCheatTrainer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(45)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(672, 263);
+            this.Controls.Add(this.checkBox5);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
@@ -218,6 +233,7 @@ namespace Dead_Island_Riptide_Cheat
         private System.Windows.Forms.CheckBox checkBox3;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.CheckBox checkBox5;
     }
 }
 
