@@ -46,6 +46,11 @@ namespace Dead_Island_Riptide_Cheat
                 label2.ForeColor = Color.Green;
                 label2.Text = "Spiel gefunden";
             }
+            else
+            {
+                MessageBox.Show("Spiel VOR dem Start des Cheat Trainers öffnen.   Start ur game before u start the cheat trainer.", "Game not found/Spiel nicht gefunden");
+                Application.Exit();
+            }
             
             Thread TH = new Thread(WriteMemory);
             Thread FT = new Thread(WriteMemory2);
@@ -95,10 +100,10 @@ namespace Dead_Island_Riptide_Cheat
             {
                 if (checkBox1.Checked)
                 {
-                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x012822F8,628,48,20,D04", "int", "2131741184");
+                    mMemLib.FreezeValue("gamedll_x64_rwdi.dll+0x012822F8,628,48,20,D04", "float", "9999999999"); // real int value 2131741184 but u can die on explosions. float with higher value is better because u have real god mode.
                 }
 
-                Thread.Sleep(1);
+                Thread.Sleep(2);
             }
         }
 
@@ -116,7 +121,7 @@ namespace Dead_Island_Riptide_Cheat
                     mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x012822F8,158,88,50", "int", "1337");
                 }
 
-                Thread.Sleep(1);
+                Thread.Sleep(100);
             }
         }
 
@@ -164,10 +169,10 @@ namespace Dead_Island_Riptide_Cheat
             {
                 if (checkBox3.Checked)
                 {
-                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x0128BA58,208,9B8,18,8,54", "int", "2119944730");
+                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x0128BA58,208,9B8,18,8,54", "float", "2119944730");
                 }
 
-                Thread.Sleep(1);
+                Thread.Sleep(100);
             }
         }
 
@@ -189,10 +194,10 @@ namespace Dead_Island_Riptide_Cheat
             {
                 if (checkBox4.Checked)
                 {
-                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x012824D0,8,3B8,C0,60,D5C", "int", "1065353216");
+                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x012824D0,8,3B8,C0,60,D5C", "float", "1065353216");
                 }
 
-                Thread.Sleep(1);
+                Thread.Sleep(100);
             }
         }
         private void WriteMemory5()
@@ -215,10 +220,10 @@ namespace Dead_Island_Riptide_Cheat
             {
                 if (checkBox5.Checked)
                 {
-                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x013271B0,A50,50,D88,48,20,8B8,68", "int", "1120403456");
+                    mMemLib.WriteMemory("gamedll_x64_rwdi.dll+0x013271B0,A50,50,D88,48,20,8B8,68", "float", "1120403456");
                 }
 
-                Thread.Sleep(1);
+                Thread.Sleep(100);
             }
         }
     }
