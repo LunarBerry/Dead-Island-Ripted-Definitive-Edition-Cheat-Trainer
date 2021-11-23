@@ -11,7 +11,7 @@ if ure not sure to download my cheat trainer and u think its a VIRUS--> its not 
 
 _______________________
 Dead Island Ripted Definitive Edition Cheat Trainer is working for the newest version of Dead Island Ripted Definitive Edition on Steam. Yeah works Online in Coop because in this game is not a anticheat system exist.
-
+_______________________
 
 GER:
 + Spiele Crash durch den god mode wenn ein zombie dich beißt ist gefixt.
@@ -24,3 +24,4 @@ Wenn du dir nicht sicher bist und eventuell denkst dass es ein Virus ist, dann l
 
 _______________________
 Dead Island Ripted Definitive Edition Cheat Trainer funktioniert mit der aktuellen Steam version. Ja ihr könnt es auch im Coop benutzen da kein anti Cheatsystem vorhanden ist.
+_______________________
