@@ -1,4 +1,4 @@
-# Dead Island Ripted Definitive Edition Cheat Trainer
+# Dead Island Ripted Definitive Edition Cheat Trainer v2.1.1
 # Changelogs
 #ENG:
 + Fixed Game Crash when use God Mode and get Bite by a zombie.
