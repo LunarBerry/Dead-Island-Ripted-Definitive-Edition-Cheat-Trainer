@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <RootNamespace>Dead_Island_Riptide_Cheat</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
     <ApplicationManifest>applik.manifest</ApplicationManifest>
     <ApplicationIcon>myLogo.ico</ApplicationIcon>
-    <Version>1.24</Version>
+    <Version>2.1.1</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

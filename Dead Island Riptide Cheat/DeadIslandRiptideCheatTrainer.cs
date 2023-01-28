@@ -44,7 +44,9 @@ namespace Dead_Island_Riptide_Cheat
             if (mMemLib.OpenProcess("DeadIslandRiptideGame"))
             {
                 label2.ForeColor = Color.Green;
+                label3.ForeColor = Color.Green;
                 label2.Text = "Spiel gefunden";
+                label3.Text = "Game Connected";
             }
             else
             {
@@ -135,12 +137,12 @@ namespace Dead_Island_Riptide_Cheat
 
 
 
-        private void label1_MouseDown(object sender, MouseEventArgs e)
+        private void Panel1_MouseDown(object sender, MouseEventArgs e)
         {
             mouseLocation = new Point(-e.X, -e.Y);
         }
 
-        private void label1_MouseMove(object sender, MouseEventArgs e)
+        private void Panel1_MouseMove(object sender, MouseEventArgs e)
         {
             if (e.Button == MouseButtons.Left)
             {
@@ -225,6 +227,11 @@ namespace Dead_Island_Riptide_Cheat
 
                 Thread.Sleep(100);
             }
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
