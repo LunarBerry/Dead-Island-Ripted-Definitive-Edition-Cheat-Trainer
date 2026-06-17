@@ -21,7 +21,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Memory.dll.x64" Version="1.2.21" />
+    <Reference Include="Memory">
+      <HintPath>E:\Backup\Memory DLL für Trainer\Build_x64\Memory.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

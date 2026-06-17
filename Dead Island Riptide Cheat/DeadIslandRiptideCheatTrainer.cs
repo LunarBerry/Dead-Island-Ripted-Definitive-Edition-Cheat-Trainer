@@ -131,7 +131,7 @@ namespace Dead_Island_Riptide_Cheat
         {
             if (button1.Enabled)
             {
-                Close();
+                Environment.Exit(0);
             }
         }
 
